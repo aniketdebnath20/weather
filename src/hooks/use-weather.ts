@@ -1,5 +1,5 @@
-import { weatherAPI } from "@/api/weather";
-import { Coordinates } from "@/types";
+import { weatherAPI } from "../api/weather";
+import { Coordinates } from "../types/index";
 import { useQuery } from "@tanstack/react-query";
 
 

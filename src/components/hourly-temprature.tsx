@@ -8,7 +8,7 @@ import {
     ResponsiveContainer,
 } from "recharts";
 import { format } from "date-fns";
-import { ForecastData } from "@/types";
+import { ForecastData } from "../types/index";
 
 interface HourlyTemperatureProps {
     data: ForecastData;

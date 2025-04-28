@@ -1,8 +1,7 @@
-import React from 'react'
-import { useTheme } from '@/context/theme-provider'
 import { Link } from 'react-router-dom'
 import ThemeToggle from './theme-toggle';
 import { CitySearch } from './city-search';
+import { useTheme } from '../context/theme-provider';
 
 const Header = () => {
 

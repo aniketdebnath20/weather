@@ -1,4 +1,4 @@
-import { CurrentWeatherProps } from "@/types";
+import { CurrentWeatherProps } from "../types/index";
 import { Card, CardContent } from "./ui/card";
 import { ArrowDown, ArrowUp, Droplets, Wind } from "lucide-react";
 
